@@ -1,0 +1,3 @@
+[submodule "Android/Framework/libeng/jni/libeng"]
+	path = Android/Framework/libeng/jni/libeng
+	url = https://github.com/v-pascal/libeng.git
