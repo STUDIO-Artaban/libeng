@@ -4,4 +4,4 @@
 ![MegaMan level](https://github.com/STUDIO-Artaban/libeng/blob/master/Android/Screenshots/LevelMega.png)
 
 # Android
-To install and use **libeng** you have to create first an Android Project with Eclipse from **Android/Framework/libeng** project (defined as a library).
+To install and use **libeng** you have to create first an Android Project with Eclipse from **Android/Framework/libeng** project.
