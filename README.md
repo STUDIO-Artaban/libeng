@@ -3,7 +3,7 @@
 
 ![MegaMan level](https://github.com/STUDIO-Artaban/libeng/blob/master/Android/Screenshots/LevelMega.png)
 
-Check it directly by installing on your device the **AppTest.apk** file using command below from the **Android/AppTest/bin** directory:
+Check it directly by installing on your device the [AppTest.apk](https://github.com/STUDIO-Artaban/libeng/blob/master/Android/AppTest/bin/AppTest.apk) file using command below from the **Android/AppTest/bin** directory:
 
 ```bash
 $ adb install AppTest.apk
