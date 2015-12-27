@@ -10,4 +10,6 @@ $ adb install AppTest.apk
 ```
 
 # Android
-To install and use **libeng** you have to create first an Android Project with Eclipse from the **Android/Framework/libeng** project.
+To install and use **libeng** you have to create first an Android Project with Eclipse from the **Android/Framework/libeng** project. Do not forget to import the submodule **libeng** core with the **git** commands below:
+
+And to include these shared and static library dependencies below before compiling it:
