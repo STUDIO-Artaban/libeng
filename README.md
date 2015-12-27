@@ -21,7 +21,7 @@ And to include these shared and static library dependencies below before compili
 
 Then...
 
-Find on [Google Play](https://play.google.com/store) store published applications that have been developed with **libeng**:
+Find on [Google Play](https://play.google.com/store) store some published applications that have been developed with **libeng**:
 * [Crystal Ball](https://play.google.com/store/apps/details?id=com.studio.artaban.crystalballEN)
 * [Flappy Witch's Pet](https://play.google.com/store/apps/details?id=com.studio.artaban.witchspet)
 * [Kaleidoscope FREE](https://play.google.com/store/apps/details?id=com.studio.artaban.kaleidoscopeFREE)
