@@ -4,3 +4,9 @@
 [submodule "Android/AppTest/jni/Sources"]
 	path = Android/AppTest/jni/Sources
 	url = https://github.com/v-pascal/AppTest_Sources.git
+[submodule "iOS/Framework/libeng/libeng/libeng"]
+	path = iOS/Framework/libeng/libeng/libeng
+	url = https://github.com/v-pascal/libeng_core.git
+[submodule "iOS/AppTest/Sources"]
+	path = iOS/AppTest/Sources
+	url = https://github.com/v-pascal/AppTest_Sources.git
