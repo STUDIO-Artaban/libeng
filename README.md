@@ -18,3 +18,13 @@ $ git submodule update
 ```
 
 And to include these shared and static library dependencies below before compiling it:
+
+Then...
+
+Find on [Google Play](https://play.google.com/store) store published applications that have been developed with **libeng**:
+* [Crystal Ball](https://play.google.com/store/apps/details?id=com.studio.artaban.crystalballEN)
+* [Flappy Witch's Pet](https://play.google.com/store/apps/details?id=com.studio.artaban.witchspet)
+* [Kaleidoscope FREE](https://play.google.com/store/apps/details?id=com.studio.artaban.kaleidoscopeFREE)
+* [Puzzle CAM](https://play.google.com/store/apps/details?id=com.studio.artaban.puzzlecam)
+* [Watch Out!](https://play.google.com/store/apps/details?id=com.studio.artaban.watchout)
+* [Matrix CAMERA](https://play.google.com/store/apps/details?id=com.studio.artaban.bullettime)
