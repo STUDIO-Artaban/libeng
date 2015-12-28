@@ -18,7 +18,7 @@ $ git submodule update
 ```
 
 # Android
-To install and use **libeng** you have to create first an Android project with Eclipse from the **Android/Framework/libeng** project (**Native Support** added), and to include shared and static library dependencies below:
+To install and use **libeng** you have to create first an Android project with **Eclipse** from the **Android/Framework/libeng** project (**Native Support** added), and to include shared and static library dependencies below:
 * boost 1.53.0 or later (static library)
 * openal 1.15.1 or later (shared library)
 * libogg-vorbis (shared library)<br>
@@ -52,7 +52,13 @@ Find on [Google Play](https://play.google.com/store) store some published applic
 * [Matrix CAMERA](https://play.google.com/store/apps/details?id=com.studio.artaban.bullettime)
 
 # iOS
-To install and use **libeng** you have to create the Framework first. Open the `iOS/Framework/libeng/libeng.xcodeproj` project file with Xcode then install and replace Frameworks dependencies below (from the **Build Phases** project property):
+To install and use **libeng** you have to create the Framework first. Open the `iOS/Framework/libeng/libeng.xcodeproj` project file with **Xcode** then install and replace Frameworks dependencies below (from the **Build Phases** project property):
 * Ogg.framework
 * Vorbis.framework
 * boost.framework
+
+Build the **libeng** project then launch the following command from the project folder:
+
+```bash
+$ ./framework.sh MODE=Debug
+```
