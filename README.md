@@ -50,3 +50,6 @@ Find on [Google Play](https://play.google.com/store) store some published applic
 * [Puzzle CAM](https://play.google.com/store/apps/details?id=com.studio.artaban.puzzlecam)
 * [Watch Out!](https://play.google.com/store/apps/details?id=com.studio.artaban.watchout)
 * [Matrix CAMERA](https://play.google.com/store/apps/details?id=com.studio.artaban.bullettime)
+
+# iOS
+To install and use **libeng** you have to create the Framework first.
