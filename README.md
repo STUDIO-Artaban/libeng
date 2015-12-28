@@ -9,15 +9,15 @@ Check it directly by installing on your connected device the [AppTest.apk](https
 $ adb install AppTest.apk
 ```
 
-# Android
-To install and use **libeng** you have to create first an Android Project with Eclipse from the **Android/Framework/libeng** project (Native support added). Do not forget to import the **libeng** core submodule folder with the **git** commands below:
+Note: Do not forget to import the submodules with the **git** commands below:
 
 ```bash
 $ git submodule init
 $ git submodule update
 ```
 
-And to include these shared and static library dependencies below before compiling it:
+# Android
+To install and use **libeng** you have to create first an Android project with Eclipse from the **Android/Framework/libeng** project (Native support added), and to include shared and static library dependencies below:
 
 Then...
 
