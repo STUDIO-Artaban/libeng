@@ -12,6 +12,7 @@ $ adb install AppTest.apk
 **Note:** Before any installation do not forget to import the submodules with the **git** commands below.
 
 ```bash
+$ cd libeng/
 $ git submodule init
 $ git submodule update
 ```
