@@ -77,8 +77,7 @@ Create now your own **iOS** project application then:
 
 Find on **AppStore** some published applications that have been developed with **libeng**:
 * [Crystal Ball](https://itunes.apple.com/us/app/crystal-ball-en/id869891415)
-* [Flappy Witch's Pet](https://play.google.com/store/apps/details?id=com.studio.artaban.witchspet)
-* [Kaleidoscope FREE](https://play.google.com/store/apps/details?id=com.studio.artaban.kaleidoscopeFREE)
-* [Puzzle CAM](https://play.google.com/store/apps/details?id=com.studio.artaban.puzzlecam)
-* [Watch Out!](https://play.google.com/store/apps/details?id=com.studio.artaban.watchout)
-* [Matrix CAMERA](https://play.google.com/store/apps/details?id=com.studio.artaban.bullettime)
+* [Flappy Witch's Pet](https://itunes.apple.com/us/app/flappy-witchs-pet/id912119217)
+* [Kaleidoscope FREE](https://itunes.apple.com/us/app/real-kaleidoscope/id929190875)
+* [Puzzle CAM](https://itunes.apple.com/us/app/puzzle-cam./id930029567)
+* [Watch Out!](https://itunes.apple.com/us/app/watch-out-!!!/id939565715)
