@@ -72,4 +72,4 @@ Create now your own **iOS** project application then:
 * Remove **AppDelegate** and **ViewController** default class
 * Remove **.storyboard** default files
 * Copy all
-* Update your **Supporting Files/main.m** file to change the **AppDelegate** class with the **EngDelegate** class such as in the [AppTest/AppTest/main.m](https://github.com/STUDIO-Artaban/libeng/blob/master/iOS/AppTest/AppTest/main.m) file at line 10 &amp; 14
+* Update your **Supporting Files/main.m** file to change the **AppDelegate** class with the **EngDelegate** class (such as in the [AppTest/AppTest/main.m](https://github.com/STUDIO-Artaban/libeng/blob/master/iOS/AppTest/AppTest/main.m) file at line 10 &amp; 14)
