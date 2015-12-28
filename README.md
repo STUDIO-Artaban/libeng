@@ -69,7 +69,7 @@ Create now your own **iOS** project application then:
 * Open the `iOS/AppTest/AppTest.xcodeproj` project file into another **Xcode** window
 * Copy all of the **AppTest** properties into your project properties (e.g empty **Main Interface** configuration in the **General** property, disable the **ARC** in the **Build Settings** property, and so on)
 * Add all of Frameworks dependencies such as defined in The **AppTest** application, not forgetting the `libeng.framework` dependency
-* Remove **AppDelegate** and **ViewController** default class
-* Remove **.storyboard** default files
-* Copy all
+* Delete **AppDelegate** and **ViewController** default class
+* Delete **.storyboard** default files
+* Add to your project...
 * Update your **Supporting Files/main.m** file to change the **AppDelegate** class with the **EngDelegate** class (such as in the [AppTest/AppTest/main.m](https://github.com/STUDIO-Artaban/libeng/blob/master/iOS/AppTest/AppTest/main.m) file at line 10 &amp; 14)
