@@ -32,6 +32,15 @@ After having compiling the **libeng** project successfully you can now create yo
 * **Add Native Support** to your project
 * Replace all files from your **jni** folder with [AppTest/jni](https://github.com/STUDIO-Artaban/libeng/tree/master/Android/AppTest/jni) content
 * Update [JNI.cpp](https://github.com/STUDIO-Artaban/libeng/blob/master/Android/AppTest/jni/JNI.cpp) file to rename all **JNIEXPORT** function declaration according your project (replace any `com_studio_artaban_apptest` string with your package name)
+* In the same way, update your [jni/Sources/Main.h](https://github.com/v-pascal/AppTest_Sources/blob/master/Main.h) accordingly (at line 36 and 38)
+
+From now, you have to remove and update folders and files using the C++ **libeng** objects, started with your application which inherit from **Game2D** (i.e [jni/Sources/AppTest.h](https://github.com/v-pascal/AppTest_Sources/blob/master/AppTest.h) &amp; [jni/Sources/AppTest.cpp](https://github.com/v-pascal/AppTest_Sources/blob/master/AppTest.cpp) files), by using the **eng** namespace as below:
+
+```c++
+using namespace eng;
+```
+
+Do not forget to update your [jni/Android.mk](https://github.com/STUDIO-Artaban/libeng/blob/master/Android/AppTest/jni/Android.mk) and [jni/Application.mk](https://github.com/STUDIO-Artaban/libeng/blob/master/Android/AppTest/jni/Application.mk) files depending on your needs.
 
 Find on [Google Play](https://play.google.com/store) store some published applications that have been developed with **libeng**:
 * [Crystal Ball](https://play.google.com/store/apps/details?id=com.studio.artaban.crystalballEN)
