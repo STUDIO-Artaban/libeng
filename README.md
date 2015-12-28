@@ -23,7 +23,7 @@ To install and use **libeng** you have to create first an Android project with E
 * libogg-vorbis (shared library)<br>
 ...adding [dependency](https://github.com/STUDIO-Artaban/libeng/tree/master/Android/Framework/Dependencies) files in each library folder.
 
-After having compiling the **libeng** project successfully you can now create your own Android Application Project and:
+After having compiling the **libeng** project successfully you can now create your own Android Application Project then:
 * Remove any Java files from your **src** folder
 * Copy all [files](https://github.com/STUDIO-Artaban/libeng/tree/master/Android/AppTest/src/com/studio/artaban/apptest) into a new folder tree according your project
 * Replace from Java files any `com.studio.artaban.apptest` package references with your own package name
