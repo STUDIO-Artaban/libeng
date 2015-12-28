@@ -66,6 +66,6 @@ $ ./framework.sh MODE=Debug
 ...replace **MODE=Debug** with **MODE=Release** according your build configuration.
 
 Create now your own **iOS** project application then:
-* Open the `iOS/AppTest/AppTest.xcodeproj` project file
+* Open the `iOS/AppTest/AppTest.xcodeproj` project file into another **Xcode** window
 * Copy all of the **AppTest** properties into your project properties (e.g disable the **ARC** in the **Build Settings** property)
 * Add all of Frameworks dependencies such as defined in The **AppTest** application, not forgetting the `libeng.framework` dependency
