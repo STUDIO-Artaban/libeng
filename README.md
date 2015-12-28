@@ -24,12 +24,14 @@ To install and use **libeng** you have to create first an Android project with E
 ...adding [dependency](https://github.com/STUDIO-Artaban/libeng/tree/master/Android/Framework/Dependencies) files in each library folder.
 
 After having compiling the **libeng** project successfully you can now create your own Android Application Project and:
-* **Add Native support** to your project
 * Remove any Java files from your **src** folder
 * Copy all [files](https://github.com/STUDIO-Artaban/libeng/tree/master/Android/AppTest/src/com/studio/artaban/apptest) into a new folder tree according your project
 * Replace from Java files any **com.studio.artaban.apptest** package references with your own package name
 * Replace the **PROJECT_NAME_LIB** definition with your project name from the [EngData.java](https://github.com/STUDIO-Artaban/libeng/blob/master/Android/AppTest/src/com/studio/artaban/apptest/data/EngData.java) file at line 21, then update it entirely according your project specifications (textures, sounds, advertising, etc.)
-* Add **google-play-services_lib**, **FacebookSDK** and **twitter4j-core** references to your project, or comment any call to these references from [EngFacebook.java](https://github.com/STUDIO-Artaban/libeng/blob/master/Android/AppTest/src/com/studio/artaban/apptest/social/EngFacebook.java), [EngGoogle.java](https://github.com/STUDIO-Artaban/libeng/blob/master/Android/AppTest/src/com/studio/artaban/apptest/social/EngGoogle.java) and [EngTwitter.java](https://github.com/STUDIO-Artaban/libeng/blob/master/Android/AppTest/src/com/studio/artaban/apptest/social/EngTwitter.java) files
+* Add **google-play-services_lib**, **FacebookSDK** and **twitter4j-core** references to your project, or comment any call to these references from [EngFacebook.java](https://github.com/STUDIO-Artaban/libeng/blob/master/Android/AppTest/src/com/studio/artaban/apptest/social/EngFacebook.java), [EngGoogle.java](https://github.com/STUDIO-Artaban/libeng/blob/master/Android/AppTest/src/com/studio/artaban/apptest/social/EngGoogle.java) and [EngTwitter.java](https://github.com/STUDIO-Artaban/libeng/blob/master/Android/AppTest/src/com/studio/artaban/apptest/social/EngTwitter.java) files if you don't need it
+* **Add Native Support** to your project
+* Replace all files from your **jni** folder with [AppTest/jni](https://github.com/STUDIO-Artaban/libeng/tree/master/Android/AppTest/jni) content
+* Update [JNI.cpp](https://github.com/STUDIO-Artaban/libeng/blob/master/Android/AppTest/jni/JNI.cpp) file to rename all **JNIEXPORT** function declaration according your project (replace any `com_studio_artaban_apptest` string with your package name)
 
 Find on [Google Play](https://play.google.com/store) store some published applications that have been developed with **libeng**:
 * [Crystal Ball](https://play.google.com/store/apps/details?id=com.studio.artaban.crystalballEN)
