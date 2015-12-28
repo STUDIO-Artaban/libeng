@@ -17,13 +17,17 @@ $ git submodule update
 ```
 
 # Android
-To install and use **libeng** you have to create first an Android project with Eclipse from the **Android/Framework/libeng** project (Native support added), and to include shared and static library dependencies below:
+To install and use **libeng** you have to create first an Android project with Eclipse from the **Android/Framework/libeng** project (**Native Support** added), and to include shared and static library dependencies below:
 * boost 1.53.0 or later (static library)
 * openal 1.15.1 or later (shared library)
 * libogg-vorbis (shared library)<br>
-See [Android/Framework/Dependencies](https://github.com/STUDIO-Artaban/libeng/tree/master/Android/Framework/Dependencies) content.
+...adding [dependency](https://github.com/STUDIO-Artaban/libeng/tree/master/Android/Framework/Dependencies) files on each library folder.
 
-Then...
+After having compiling the **libeng** project successfully you can now create your own Android Application Project and:
+* **Add Native support** to your project
+* Remove any Java files from your **src** folder
+* Copy all [files](https://github.com/STUDIO-Artaban/libeng/tree/master/Android/AppTest/src/com/studio/artaban/apptest) into a new folder tree according your project
+* Replace from Java files any **com.studio.artaban.apptest** package references with your own package name
 
 Find on [Google Play](https://play.google.com/store) store some published applications that have been developed with **libeng**:
 * [Crystal Ball](https://play.google.com/store/apps/details?id=com.studio.artaban.crystalballEN)
