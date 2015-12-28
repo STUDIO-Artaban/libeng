@@ -57,7 +57,7 @@ To install and use **libeng** you have to create the Framework first. Open the `
 * Vorbis.framework
 * boost.framework
 
-Build the **libeng** project then edit the [iOS/Framework/libeng/framework.sh](https://github.com/STUDIO-Artaban/libeng/blob/master/iOS/Framework/libeng/framework.sh) file to modify default build path (i.e **Build/Products/**), with your build path, and launch the following command to add headers declaration to the `libeng.framework`:
+Build the **libeng** project then edit the [iOS/Framework/libeng/framework.sh](https://github.com/STUDIO-Artaban/libeng/blob/master/iOS/Framework/libeng/framework.sh) file to modify default build path (i.e **Build/Products/**), with your build path, and launch the following command to add **Headers** declaration to the `libeng.framework`:
 
 ```bash
 $ ./framework.sh MODE=Debug
