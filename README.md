@@ -52,7 +52,7 @@ Find on [Google Play](https://play.google.com/store) store some published applic
 * [Matrix CAMERA](https://play.google.com/store/apps/details?id=com.studio.artaban.bullettime)
 
 # iOS
-To install and use **libeng** you have to create the Framework first. Open the `iOS/Framework/libeng/libeng.xcodeproj` project file with **Xcode** then install and replace Frameworks dependencies below (from the **Build Phases** project property):
+To install and use **libeng** you have to create the Framework first. Open the `iOS/Framework/libeng/libeng.xcodeproj` project file with **Xcode** then install and replace Frameworks dependencies below (from the **Build Phases** project properties):
 * Ogg.framework
 * Vorbis.framework
 * boost.framework
@@ -67,7 +67,7 @@ $ ./framework.sh MODE=Debug
 
 Create now your own **iOS** project application then:
 * Open the `iOS/AppTest/AppTest.xcodeproj` project file into another **Xcode** window
-* Copy all of the **AppTest** properties into your project properties (e.g empty **Main Interface** configuration in the **General** property, disable the **ARC** in the **Build Settings** property, and so on)
+* Copy all of the **AppTest** properties into your project properties (e.g empty **Main Interface** configuration in the **General** properties, disable the **ARC** in the **Build Settings** properties, and so on)
 * Add all of Frameworks dependencies such as defined in The **AppTest** application, not forgetting the `libeng.framework` dependency
 * Delete **AppDelegate** and **ViewController** default class
 * Delete **.storyboard** default files
