@@ -35,7 +35,7 @@ After having compiling the **libeng** project successfully you can now create yo
 * Update [JNI.cpp](https://github.com/STUDIO-Artaban/libeng/blob/master/Android/AppTest/jni/JNI.cpp) file to rename all **JNIEXPORT** function declaration according your project (replace any `com_studio_artaban_apptest` string with your package name)
 * In the same way, update your [jni/Sources/Main.h](https://github.com/v-pascal/AppTest_Sources/blob/master/Main.h) accordingly (at lines 36 and 38)
 
-From now, you have to remove and update folders and files using the C++ **libeng** objects, started with your application object which inherits from **Game2D** (i.e [jni/Sources/AppTest.h](https://github.com/v-pascal/AppTest_Sources/blob/master/AppTest.h) &amp; [jni/Sources/AppTest.cpp](https://github.com/v-pascal/AppTest_Sources/blob/master/AppTest.cpp) files), by using the **eng** namespace as below:
+From now, you have to remove and update folders and files contained in the **jni/Sources** using the C++ **libeng** objects, started with your application object which inherits from **Game2D** (i.e [jni/Sources/AppTest.h](https://github.com/v-pascal/AppTest_Sources/blob/master/AppTest.h) &amp; [jni/Sources/AppTest.cpp](https://github.com/v-pascal/AppTest_Sources/blob/master/AppTest.cpp) files), by using the **eng** namespace as below:
 
 ```c++
 using namespace eng;
@@ -74,6 +74,12 @@ Create now your own **iOS** project application then:
 * Add [EngAdvertising.h](https://github.com/STUDIO-Artaban/libeng/blob/master/iOS/AppTest/AppTest/EngAdvertising.h), [EngAdvertising.mm](https://github.com/STUDIO-Artaban/libeng/blob/master/iOS/AppTest/AppTest/EngAdvertising.mm), [EngController.h](https://github.com/STUDIO-Artaban/libeng/blob/master/iOS/AppTest/AppTest/EngController.h), [EngController.mm](https://github.com/STUDIO-Artaban/libeng/blob/master/iOS/AppTest/AppTest/EngController.mm), [EngDelegate.h](https://github.com/STUDIO-Artaban/libeng/blob/master/iOS/AppTest/AppTest/EngDelegate.h), [EngDelegate.mm](https://github.com/STUDIO-Artaban/libeng/blob/master/iOS/AppTest/AppTest/EngDelegate.mm), [EngResources.h](https://github.com/STUDIO-Artaban/libeng/blob/master/iOS/AppTest/AppTest/EngResources.h) and [EngResources.mm](https://github.com/STUDIO-Artaban/libeng/blob/master/iOS/AppTest/AppTest/EngResources.mm) files from the **AppTest** to your project
 * Add [Social](https://github.com/STUDIO-Artaban/libeng/tree/master/iOS/AppTest/AppTest/Social) folder and its content from the **AppTest** to your project
 * Update your **Supporting Files/main.m** file to change the **AppDelegate** class with the **EngDelegate** class (such as in the [AppTest/AppTest/main.m](https://github.com/STUDIO-Artaban/libeng/blob/master/iOS/AppTest/AppTest/main.m) file at line 10 &amp; 14)
+
+From now, you have to remove and update folders and files contained in the **Sources** using the C++ **libeng** objects, started with your application object which inherits from **Game2D** (i.e [jni/Sources/AppTest.h](https://github.com/v-pascal/AppTest_Sources/blob/master/AppTest.h) &amp; [jni/Sources/AppTest.cpp](https://github.com/v-pascal/AppTest_Sources/blob/master/AppTest.cpp) files), by using the **eng** namespace as below:
+
+```c++
+using namespace eng;
+```
 
 Find on **AppStore** some published applications that have been developed with **libeng**:
 * [Crystal Ball](https://itunes.apple.com/us/app/crystal-ball-en/id869891415)
