@@ -74,3 +74,11 @@ Create now your own **iOS** project application then:
 * Add [EngAdvertising.h](https://github.com/STUDIO-Artaban/libeng/blob/master/iOS/AppTest/AppTest/EngAdvertising.h), [EngAdvertising.mm](https://github.com/STUDIO-Artaban/libeng/blob/master/iOS/AppTest/AppTest/EngAdvertising.mm), [EngController.h](https://github.com/STUDIO-Artaban/libeng/blob/master/iOS/AppTest/AppTest/EngController.h), [EngController.mm](https://github.com/STUDIO-Artaban/libeng/blob/master/iOS/AppTest/AppTest/EngController.mm), [EngDelegate.h](https://github.com/STUDIO-Artaban/libeng/blob/master/iOS/AppTest/AppTest/EngDelegate.h), [EngDelegate.mm](https://github.com/STUDIO-Artaban/libeng/blob/master/iOS/AppTest/AppTest/EngDelegate.mm), [EngResources.h](https://github.com/STUDIO-Artaban/libeng/blob/master/iOS/AppTest/AppTest/EngResources.h) and [EngResources.mm](https://github.com/STUDIO-Artaban/libeng/blob/master/iOS/AppTest/AppTest/EngResources.mm) files from the **AppTest** to your project
 * Add [Social](https://github.com/STUDIO-Artaban/libeng/tree/master/iOS/AppTest/AppTest/Social) folder and its content from the **AppTest** to your project
 * Update your **Supporting Files/main.m** file to change the **AppDelegate** class with the **EngDelegate** class (such as in the [AppTest/AppTest/main.m](https://github.com/STUDIO-Artaban/libeng/blob/master/iOS/AppTest/AppTest/main.m) file at line 10 &amp; 14)
+
+Find on **AppStore** some published applications that have been developed with **libeng**:
+* [Crystal Ball](https://itunes.apple.com/us/app/crystal-ball-en/id869891415)
+* [Flappy Witch's Pet](https://play.google.com/store/apps/details?id=com.studio.artaban.witchspet)
+* [Kaleidoscope FREE](https://play.google.com/store/apps/details?id=com.studio.artaban.kaleidoscopeFREE)
+* [Puzzle CAM](https://play.google.com/store/apps/details?id=com.studio.artaban.puzzlecam)
+* [Watch Out!](https://play.google.com/store/apps/details?id=com.studio.artaban.watchout)
+* [Matrix CAMERA](https://play.google.com/store/apps/details?id=com.studio.artaban.bullettime)
