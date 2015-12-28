@@ -21,13 +21,15 @@ To install and use **libeng** you have to create first an Android project with E
 * boost 1.53.0 or later (static library)
 * openal 1.15.1 or later (shared library)
 * libogg-vorbis (shared library)<br>
-...adding [dependency](https://github.com/STUDIO-Artaban/libeng/tree/master/Android/Framework/Dependencies) files on each library folder.
+...adding [dependency](https://github.com/STUDIO-Artaban/libeng/tree/master/Android/Framework/Dependencies) files in each library folder.
 
 After having compiling the **libeng** project successfully you can now create your own Android Application Project and:
 * **Add Native support** to your project
 * Remove any Java files from your **src** folder
 * Copy all [files](https://github.com/STUDIO-Artaban/libeng/tree/master/Android/AppTest/src/com/studio/artaban/apptest) into a new folder tree according your project
 * Replace from Java files any **com.studio.artaban.apptest** package references with your own package name
+* Replace the **PROJECT_NAME_LIB** definition with your project name from the [EngData.java](https://github.com/STUDIO-Artaban/libeng/blob/master/Android/AppTest/src/com/studio/artaban/apptest/data/EngData.java) file at line 21, then update it entirely according your project specifications (textures, sounds, advertising, etc.)
+* Add **google-play-services_lib**, **FacebookSDK** and **twitter4j-core** references to your project, or comment any call to these references from [EngFacebook.java](https://github.com/STUDIO-Artaban/libeng/blob/master/Android/AppTest/src/com/studio/artaban/apptest/social/EngFacebook.java), [EngGoogle.java](https://github.com/STUDIO-Artaban/libeng/blob/master/Android/AppTest/src/com/studio/artaban/apptest/social/EngGoogle.java) and [EngTwitter.java](https://github.com/STUDIO-Artaban/libeng/blob/master/Android/AppTest/src/com/studio/artaban/apptest/social/EngTwitter.java) files
 
 Find on [Google Play](https://play.google.com/store) store some published applications that have been developed with **libeng**:
 * [Crystal Ball](https://play.google.com/store/apps/details?id=com.studio.artaban.crystalballEN)
