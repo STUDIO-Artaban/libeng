@@ -21,7 +21,7 @@ To install and use **libeng** you have to create first an Android project with E
 * boost 1.53.0 or later (static library)
 * openal 1.15.1 or later (shared library)
 * libogg-vorbis (shared library)<br>
-...adding [dependency](https://github.com/STUDIO-Artaban/libeng/tree/master/Android/Framework/Dependencies) files in each library folder.
+...adding [dependency](https://github.com/STUDIO-Artaban/libeng/tree/master/Android/Framework/Dependencies) files in each library folder (see [libeng/jni/Android.mk](https://github.com/STUDIO-Artaban/libeng/blob/master/Android/Framework/libeng/jni/Android.mk) file at lines 49 to 51).
 
 After having compiling the **libeng** project successfully you can now create your own Android Application Project then:
 * Remove any Java files from your **src** folder
@@ -32,7 +32,7 @@ After having compiling the **libeng** project successfully you can now create yo
 * **Add Native Support** to your project
 * Replace all files from your **jni** folder with [AppTest/jni](https://github.com/STUDIO-Artaban/libeng/tree/master/Android/AppTest/jni) content
 * Update [JNI.cpp](https://github.com/STUDIO-Artaban/libeng/blob/master/Android/AppTest/jni/JNI.cpp) file to rename all **JNIEXPORT** function declaration according your project (replace any `com_studio_artaban_apptest` string with your package name)
-* In the same way, update your [jni/Sources/Main.h](https://github.com/v-pascal/AppTest_Sources/blob/master/Main.h) accordingly (at line 36 and 38)
+* In the same way, update your [jni/Sources/Main.h](https://github.com/v-pascal/AppTest_Sources/blob/master/Main.h) accordingly (at lines 36 and 38)
 
 From now, you have to remove and update folders and files using the C++ **libeng** objects, started with your application object which inherits from **Game2D** (i.e [jni/Sources/AppTest.h](https://github.com/v-pascal/AppTest_Sources/blob/master/AppTest.h) &amp; [jni/Sources/AppTest.cpp](https://github.com/v-pascal/AppTest_Sources/blob/master/AppTest.cpp) files), by using the **eng** namespace as below:
 
