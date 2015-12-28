@@ -57,7 +57,7 @@ To install and use **libeng** you have to create the Framework first. Open the `
 * Vorbis.framework
 * boost.framework
 
-Build the **libeng** project then launch the following command from the project folder:
+Build the **libeng** project then launch the following command from the project folder to add headers declaration:
 
 ```bash
 $ ./framework.sh MODE=Debug
