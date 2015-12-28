@@ -9,7 +9,7 @@ Check it directly by installing on your connected device the [AppTest.apk](https
 $ adb install AppTest.apk
 ```
 
-Note: Do not forget to import the submodules with the **git** commands below:
+Note: Before any installation do not forget to import the submodules with the **git** commands below.
 
 ```bash
 $ git submodule init
@@ -17,7 +17,10 @@ $ git submodule update
 ```
 
 # Android
-To install and use **libeng** you have to create first an Android project with Eclipse from the **Android/Framework/libeng** project (Native support added), and to include shared and static library dependencies below:
+To install and use **libeng** you have to create first an Android project with Eclipse from the **Android/Framework/libeng** project (Native support added), and to include shared and static library dependencies below (see [Android/Framework/Dependencies](https://github.com/STUDIO-Artaban/libeng/tree/master/Android/Framework/Dependencies) content):
+* boost 1.53.0 or later (static library)
+* openal 1.15.1 or later (shared library)
+* libogg-vorbis (shared library)
 
 Then...
 
