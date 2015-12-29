@@ -1,12 +1,12 @@
 [submodule "Android/Framework/libeng/jni/libeng"]
 	path = Android/Framework/libeng/jni/libeng
-	url = https://github.com/v-pascal/libeng_core.git
+	url = https://github.com/v-pascal/libeng.git
 [submodule "Android/AppTest/jni/Sources"]
 	path = Android/AppTest/jni/Sources
-	url = https://github.com/v-pascal/AppTest_Sources.git
+	url = https://github.com/v-pascal/AppTest.git
 [submodule "iOS/Framework/libeng/libeng/libeng"]
 	path = iOS/Framework/libeng/libeng/libeng
-	url = https://github.com/v-pascal/libeng_core.git
+	url = https://github.com/v-pascal/libeng.git
 [submodule "iOS/AppTest/Sources"]
 	path = iOS/AppTest/Sources
-	url = https://github.com/v-pascal/AppTest_Sources.git
+	url = https://github.com/v-pascal/AppTest.git
