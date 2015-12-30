@@ -1,0 +1,24 @@
+VERSION     DATE        DESCRIPTION
+1.1.91                  Original
+1.1.93                  xDpi & yDpi added into 'PlatformData' structure
+1.1.95      01/25/14    Allow to load font texture not in first but at any time (no more rule: Font at first texture index)
+1.1.96      01/30/14    Maximum accelerometer range data added into 'PlatformData' structure
+1.1.97      02/08/14    Double the size of the increase buffer array (Dynamic2D::IncreaseBuffer)
+1.1.98      03/06/14    Font is now defined on three lines instead of two (No more 1024*1024 texture requirement) + "Panel2D::copy" method is replaced by "Static2D::copyVertices" method
+1.1.99      05/02/14    Change all Pause/Resume process in order to manage the lock screen (which is not a basic Pause/Resume operation) + "Platform:create" added
+1.1.100     06/02/14    Advertising management added ('obj' variable added into 'PlatformData' structure)
+1.1.101     06/06/14    Move 'Sprite2D::reverseTexCoords' to 'Sprite2D::reverse(false)' + 'online' param added into 'Intro' constructor (LIBENG_ENABLE_INTERNET flag added)
+1.1.102     06/11/14    HTTP request management added
+1.1.103     06/20/14    Social networks management added ('PlatformData.jpn' & functions 'platformSocial' & 'platformPicture' added) + 'MainActivity', 'MainLibrary', etc. have been replaced by 'EngActivity', 'EngLibrary' etc.
+1.1.104     06/27/14    JNI native functions 'start' & 'stop' have been replaced with 'change' & 'destroy' (same changes on 'platform*' functions) + JNI native functions 'start', 'stop' & 'result' added (same add to 'platformOS' module) + Murge JNI native functions 'social' & 'picture' to one: loadSocial (same changes into 'platformOS' module)
+1.1.105     09/11/14    Change libeng/Devices folder into libeng/Features folder + 'Game::resetDelta' method added & used to fix lock/unlock delta issue (big delta during lock coz never reseted)
+1.1.106     09/25/14    Added 'platformLoadStore' function (to receive the storage result)
+1.2.0       11/04/14    Change 'Object2D::initialize' parameters ('const Game2D* game' parameter only) + 'Triangle2D' bound class added
+1.2.1       01/02/15    Replace 'Internet::isOnline' with 'Internet::isConnected' to check network connection + Add 'Internet::isOnline' to check Internet connection + 'EngNetworks' Java class added
+1.2.2       01/13/15    Camera Pause/Resume management updated ('Render::noDraw' method added)
+1.2.3       01/28/15    'Session::RequestID' updated (from REQUEST_SHARE to REQUEST_SHARE_LINK + REQUEST_SHARE_VIDEO added) + Change JAVA 'share' method call to 'shareLink' method (and 'Session::shareVideo' added to call JAVA 'shareVideo' method)
+1.2.4       03/11/15    Allow to memorize camera buffer ('getCamBuffer' method added) + Get application folder added - FOLDER_TYPE_APPLICATION (following the static statement removed from the 'getFolder' JAVA method)
+1.2.5       04/02/15    'Game::lockScreen' method added (called when enter to a lock screen processus) + The LIBENG_ENABLE_ELAPSED feature has been removed
+1.2.6       04/14/15    Using GNU-C++ v11 for iOS only (failed to link 'boost::regex' for arm64)
+1.2.7       04/26/15    Implement Twitter social network using Twitter4j library (add 'intent' parameter to 'platformStart' function)
+1.2.8       05/10/15    LIBENG_ENABLE_BLUETOOTH flag added to manage Bluetooth + Replace 'WaitNet' class to 'WaitConn' class and add 'wifi' parameter to constructor (equal to false for Bluetooth connection)
