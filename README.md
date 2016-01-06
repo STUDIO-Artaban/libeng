@@ -14,7 +14,7 @@ $ adb install AppTest.apk
 ```bash
 $ cd libeng/
 $ git submodule init
-$ git submodule update
+$ git submodule update --remote
 ```
 
 # Android
